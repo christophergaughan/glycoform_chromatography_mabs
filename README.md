@@ -11,7 +11,7 @@
 
 ## The Problem
 
-Modern AI tools like RFdiffusion, ProteinMPNN, and AntiFold are revolutionizing antibody design. They can generate thousands of candidate sequences optimized for binding affinity, stability, and developability.
+Modern AI tools, such as RFdiffusion, ProteinMPNN, and AntiFold, are revolutionizing antibody design. They can generate thousands of candidate sequences optimized for binding affinity, stability, and developability.
 
 **But they miss something critical: Fab glycosylation risk.**
 
@@ -67,7 +67,7 @@ This repository demonstrates a complete pipeline from sequence analysis to manuf
 │  STRATEGIC GLYCAN ENGINEERING SCANNER                               │
 │  ───────────────────────────────────────                            │
 │  • Identify existing N-X-S/T sequons                                │
-│  • Find sites 1 mutation away (SHM-accessible)                      │
+│  • Find sites one mutation away (SHM-accessible)                      │
 │  • Classify: CDR vs Framework location                              │
 │  • Calculate SHM probability for each site                          │
 │  • Prioritize by engineering/risk potential                         │
@@ -179,7 +179,7 @@ pip install -r requirements.txt
 
 ### Google Colab
 
-All notebooks are designed to run in Google Colab. Simply open in Colab and run all cells.
+All notebooks are designed to run in Google Colab. Open in Colab and run all cells (i.e., hit "Run All" in the top menu).
 
 ---
 
